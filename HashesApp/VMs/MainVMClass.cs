@@ -54,7 +54,8 @@ namespace HashesApp.VMs
             Hashes = new ObservableCollection<IHash>
             {
                 new MD5(),
-                new SHA1()
+                new SHA1(),
+                new GOST()
             };
             RaisePropertyChanged(nameof(Hashes));
             SelectedHash = Hashes.First();
