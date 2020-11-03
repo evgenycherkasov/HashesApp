@@ -33,7 +33,6 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="60"/>
-            <RowDefinition Height="40"/>
         </Grid.RowDefinitions>
         <TextBox Grid.Row="0" 
                  Text="{Binding Text}"
@@ -52,7 +51,10 @@
         </StackPanel>
         <ProgressBar 
                     IsIndeterminate="{Binding IsStarted}"
-                    Grid.Row="3"
+                    Grid.Row="1"
+                    Width="40"
+                    Height="40"
+                    VerticalAlignment="Top"
                     Style="{StaticResource MaterialDesignCircularProgressBar}"/>
     </Grid>
 </Page>
