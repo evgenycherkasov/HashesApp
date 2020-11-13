@@ -37,9 +37,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="GostCryptography, Version=2.0.8.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\GostCryptography.2.0.8\lib\net452\GostCryptography.dll</HintPath>
-    </Reference>
     <Reference Include="MaterialDesignColors, Version=1.2.7.1979, Culture=neutral, PublicKeyToken=df2a72020bd7962a, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.2.7\lib\net45\MaterialDesignColors.dll</HintPath>
     </Reference>
@@ -81,6 +78,7 @@
     <Compile Include="ExceptionsClasses\ValidateException.cs" />
     <Compile Include="Interfaces\IHash.cs" />
     <Compile Include="Models\GOST.cs" />
+    <Compile Include="Models\Helpers\FileWorkerClass.cs" />
     <Compile Include="Models\MD5.cs" />
     <Compile Include="Models\SHA1.cs" />
     <Compile Include="Views\Custom Elements\TextBoxView.xaml.cs">
